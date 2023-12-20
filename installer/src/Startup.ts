@@ -55,8 +55,8 @@ export class Startup extends AppModule {
       swaggerBuilder.CreateSwaggerApi(app, {
         path: 'swagger',
         info: {
-          title: 'Newbility-Template',
-          description: 'Newbility模板项目',
+          title: 'Newbility-Doc',
+          description: 'Newbility文档网站',
         },
         // auth: {
         //   url: '/api/auth/login',

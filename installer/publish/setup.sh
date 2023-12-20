@@ -1,6 +1,6 @@
 #! /bin/bash
 
-app='firefly'
+app='newbility-doc'
 target="/usr/lib/systemd/system/$app.service"
 scripts='install/uninstall/start/restart/stop/status'
 
@@ -51,7 +51,7 @@ install() {
     fi
     echo "$(sed "s#\${APP_PATH}#$(pwd)#" ./$app.service)" >$target
 
-    chmod +x ./app/firefly-auto-deployer
+    chmod +x ./app/newbility-doc
 
     systemctl enable $app
     systemctl start $app

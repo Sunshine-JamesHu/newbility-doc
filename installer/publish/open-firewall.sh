@@ -4,7 +4,7 @@ script=${1:-"status"}
 directional=${2}
 firewall_type="firewalld"
 
-openports=("28020/tcp")
+openports=("28000/tcp")
 
 firewall_open() {
     if [ ${firewall_type} == "ufw" ]; then
