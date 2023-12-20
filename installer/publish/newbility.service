@@ -1,0 +1,11 @@
+[Unit]
+Description=Newbility Doc
+After=network.target
+
+[Service]
+ExecStart=${APP_PATH}/app/newbility-doc
+Restart=always
+WorkingDirectory=${APP_PATH}/app
+
+[Install]
+WantedBy=multi-user.target

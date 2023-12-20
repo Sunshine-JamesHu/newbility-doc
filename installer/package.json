@@ -1,0 +1,35 @@
+{
+  "name": "newbility-doc",
+  "version": "0.2.49",
+  "main": "build/index.js",
+  "author": "jameshu",
+  "license": "MIT",
+  "private": true,
+  "repository": "Sunshine-JamesHu/newbility",
+  "scripts": {
+    "start": "nodemon --inspect --watch \"./src/**/*.ts\" -e ts --exec \"node\" -r ts-node/register \"./src/App.ts\"",
+    "build": "gulp"
+  },
+  "bin": "build/src/App.js",
+  "pkg": {
+    "scripts": "build/**/*.js",
+    "assets": "public/**/*",
+    "targets": [
+      "node18-linux-x64"
+    ],
+    "outputPath": "pkg"
+  },
+  "dependencies": {
+    "@newbility/koa-core": "^0.2.49",
+    "@newbility/swagger": "^0.2.49"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.6",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-chmod": "^3.1.0",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}

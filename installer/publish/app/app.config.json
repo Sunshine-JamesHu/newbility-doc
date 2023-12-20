@@ -1,0 +1,22 @@
+{
+  "port": 28000,
+  "apiPrefix": "api",
+  "log": {
+    "logLevel": "info"
+  },
+  "swagger": {
+    "enabled": false
+  },
+  "cors": {
+    "enable": false
+  },
+  "static": {
+    "default": {
+      "dir": "/snapshot/installer/public"
+    },
+    "assets": {
+      "dir": "public/assets",
+      "auth": false
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "port": 28000,
+  "apiPrefix": "api",
+  "log": {
+    "logLevel": "info"
+  },
+  "swagger": {
+    "enabled": false
+  },
+  "cors": {
+    "enable": true
+  },
+  "static": {
+    "default": {
+      "dir": "public"
+    },
+    "assets": {
+      "dir": "public/assets",
+      "auth": false
+    }
+  }
+}
