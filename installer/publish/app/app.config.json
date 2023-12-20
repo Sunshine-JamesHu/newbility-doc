@@ -16,7 +16,10 @@
     },
     "imgs": {
       "dir": "/snapshot/installer/imgs",
-      "auth": false
+      "auth": false,
+      "options": {
+        "maxage": 3600000
+      }
     }
   }
 }
