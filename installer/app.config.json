@@ -14,8 +14,8 @@
     "default": {
       "dir": "public"
     },
-    "assets": {
-      "dir": "public/assets",
+    "imgs": {
+      "dir": "imgs",
       "auth": false
     }
   }

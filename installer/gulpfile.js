@@ -48,6 +48,7 @@ function buildPkg(cb) {
       // 对前端文件使用包中的绝对路径
       const dirName = path.basename(__dirname);
       if (config.static?.default?.dir) config.static.default.dir = `/snapshot/${dirName}/public`;
+      if (config.static?.imgs?.dir) config.static.imgs.dir = `/snapshot/${dirName}/imgs`;
 
       fs.writeFileSync('publish/app/app.config.json', JSON.stringify(config, null, 2), 'utf-8');
 

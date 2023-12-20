@@ -14,8 +14,8 @@
     "default": {
       "dir": "/snapshot/installer/public"
     },
-    "assets": {
-      "dir": "public/assets",
+    "imgs": {
+      "dir": "/snapshot/installer/imgs",
       "auth": false
     }
   }

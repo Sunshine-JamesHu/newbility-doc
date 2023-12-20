@@ -13,7 +13,10 @@
   "bin": "build/src/App.js",
   "pkg": {
     "scripts": "build/**/*.js",
-    "assets": "public/**/*",
+    "assets": [
+      "public/**/*",
+      "imgs/**/*"
+    ],
     "targets": [
       "node18-linux-x64"
     ],
