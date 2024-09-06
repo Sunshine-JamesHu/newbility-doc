@@ -16,7 +16,10 @@
     },
     "imgs": {
       "dir": "imgs",
-      "auth": false
+      "auth": false,
+      "options":{
+        "maxage":3600000
+      }
     }
   }
 }
