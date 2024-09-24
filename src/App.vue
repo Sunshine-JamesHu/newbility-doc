@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import WebHeader from './components/WebHeader.vue'
+import WebFooter from './components/WebFooter.vue'
 </script>
 
 <template>
@@ -10,6 +11,9 @@ import WebHeader from './components/WebHeader.vue'
   <main class="body">
     <RouterView />
   </main>
+  <footer>
+    <WebFooter />
+  </footer>
 </template>
 
 <style scoped>
