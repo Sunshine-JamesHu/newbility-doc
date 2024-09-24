@@ -5,7 +5,7 @@
   font-size: 18px;
 }
 .ipc-box a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 </style>
